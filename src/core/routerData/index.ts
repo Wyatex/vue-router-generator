@@ -1,5 +1,4 @@
-import porcess from 'node:process'
-import micromatch from 'micromatch'
+import process from 'node:process'
 import type { FSWatcher } from 'chokidar'
 import { getFullPathOfPageGlob, getGlobResult, handleValidatePageGlob } from './utils'
 import {
